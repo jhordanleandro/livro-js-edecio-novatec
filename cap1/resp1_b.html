@@ -1,0 +1,14 @@
+<meta charset="utf-8" />
+
+<script>
+  const valorConta = Number(prompt("Qual o valor da conta? R$: "));
+  const numeroCliente = Number(prompt("Quantos clientes?: "));
+  const valorPorCliente = valorConta / numeroCliente;
+  alert(
+    `O valor da conta foi R$ ${valorConta.toFixed(
+      2
+    )}\nDividido pelo número de pessoas que é: ${numeroCliente.toFixed(
+      2
+    )}\nFicando o valor por cliente de R$ ${valorPorCliente.toFixed(2)}`
+  );
+</script>

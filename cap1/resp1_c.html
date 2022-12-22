@@ -1,0 +1,14 @@
+<meta charset="utf-8" />
+
+<script>
+  const precoProduto = Number(prompt("Qual o valor do produto: "));
+  const pagVista = precoProduto * 0.9;
+  const pagDividido = precoProduto / 3;
+  alert(
+    `O valor do produto é R$ ${precoProduto.toFixed(
+      2
+    )}\nPagamento à vista sai por R$ ${pagVista.toFixed(
+      2
+    )}\nE parcelado fica em 3x de R$ ${pagDividido.toFixed(2)}`
+  );
+</script>
